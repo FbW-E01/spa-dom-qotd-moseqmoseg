@@ -4003,13 +4003,9 @@ const quotes = [{
     "length": 46
 }];
 
-
-
-
-
 function randomQ() {
     let newq = quotes[Math.floor(Math.random() * quotes.length)].content;
     quoteBox.innerText = newq;
-}
+};
 
-button.addEventListener("click", randomQ)
+button.addEventListener("click", randomQ);
